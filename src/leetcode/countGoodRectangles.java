@@ -11,7 +11,7 @@ public class countGoodRectangles {
             temp = rectangles[i][0] > rectangles[i][1] ? rectangles[i][1] : rectangles[i][0];
             if (target.containsKey(temp)) {
                 int a = target.get(temp).intValue() + 1;
-                target.put(temp, a);
+                target.put(temp,  a);
             } else {
                 target.put(temp, 1);
             }
